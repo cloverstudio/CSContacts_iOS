@@ -7,12 +7,18 @@
 //
 
 import XCTest
+import RxSwift
 @testable import CSContacts_iOS
 
 class CSContacts_iOSTests: XCTestCase {
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        let mockData = Observable.of([PhoneContact(phoneIdentifier: "test",
+                                                                     serverId: "test2",
+                                                                     name: "John Doe",
+                                                                     email: nil,
+                                                                     phoneNumbers: ["1111"])])
+        CSContactsProvider.instance.startWithMockContacts(contacts: mockData)
     }
 
     override func tearDown() {

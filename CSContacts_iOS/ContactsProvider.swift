@@ -12,13 +12,13 @@ import Contacts
 import Reachability
 import RxReachability
 
-public class ContactsProvider {
+public class CSContactsProvider {
     
     // MARK: Public Variables
     public var contacts: Observable<[PhoneContact]>!
     public var statusUpdate:PublishSubject<String> = PublishSubject()
     
-    public static let instance = ContactsProvider()
+    public static let instance = CSContactsProvider()
     
     // MARK: Private Variables
     let store = CNContactStore()

@@ -1,23 +1,29 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+inhibit_all_warnings!
+
+def frameworks
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
+
+  pod 'RealmSwift', '~> 3.0'
+
+  pod "RxContacts", '~> 1.0'
+
+  pod "ReachabilitySwift", '~> 4.0'
+  pod "RxReachability", '~> 0.0'
+end
 
 target 'CSContacts_iOS' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  frameworks
   use_frameworks!
-
-  # Pods for CSContacts_iOS
 
   target 'CSContacts_iOSTests' do
     inherit! :search_paths
-    # Pods for testing
   end
 
 end
 
 target 'CSContacts_iOS_examples' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  frameworks
   use_frameworks!
-
-  # Pods for CSContacts_iOS_examples
 
 end

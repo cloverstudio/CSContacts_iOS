@@ -45,6 +45,9 @@
 		0B0C688B22731697007A7004 /* DeviceContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C686F22731697007A7004 /* DeviceContacts.swift */; };
 		0B0C688C22731697007A7004 /* DeviceContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C686F22731697007A7004 /* DeviceContacts.swift */; };
 		0B0C688D22731697007A7004 /* DeviceContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C686F22731697007A7004 /* DeviceContacts.swift */; };
+		29DFF03B77A98601D050DB3C /* Pods_CSContacts_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A0E5CB572F3D845C482EAA /* Pods_CSContacts_iOS.framework */; };
+		62FFFF0ECE7A6BA9AA1EB4B4 /* Pods_CSContacts_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BB5143CA24CDAE25C39277 /* Pods_CSContacts_iOSTests.framework */; };
+		F65B9A57EE305C9148AADA63 /* Pods_CSContacts_iOS_examples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551F6480A8D58D017635D6FA /* Pods_CSContacts_iOS_examples.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,15 @@
 		0B0C686D22731697007A7004 /* PhoneContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneContact.swift; sourceTree = "<group>"; };
 		0B0C686E22731697007A7004 /* RealmHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHandler.swift; sourceTree = "<group>"; };
 		0B0C686F22731697007A7004 /* DeviceContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceContacts.swift; sourceTree = "<group>"; };
+		109147F557BD989276BB6F56 /* Pods-CSContacts_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSContacts_iOS.release.xcconfig"; path = "Target Support Files/Pods-CSContacts_iOS/Pods-CSContacts_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		40A0E5CB572F3D845C482EAA /* Pods_CSContacts_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSContacts_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		472861F997B52FEAA597A6A7 /* Pods-CSContacts_iOS_examples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSContacts_iOS_examples.release.xcconfig"; path = "Target Support Files/Pods-CSContacts_iOS_examples/Pods-CSContacts_iOS_examples.release.xcconfig"; sourceTree = "<group>"; };
+		551F6480A8D58D017635D6FA /* Pods_CSContacts_iOS_examples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSContacts_iOS_examples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D22909801960697B9BEBE31 /* Pods-CSContacts_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSContacts_iOS.debug.xcconfig"; path = "Target Support Files/Pods-CSContacts_iOS/Pods-CSContacts_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5D3C4C6F50AB48840B174C48 /* Pods-CSContacts_iOS_examples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSContacts_iOS_examples.debug.xcconfig"; path = "Target Support Files/Pods-CSContacts_iOS_examples/Pods-CSContacts_iOS_examples.debug.xcconfig"; sourceTree = "<group>"; };
+		86BB5143CA24CDAE25C39277 /* Pods_CSContacts_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSContacts_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A421BD532C929E87B5A9921A /* Pods-CSContacts_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSContacts_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-CSContacts_iOSTests/Pods-CSContacts_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE4F0AC21C580C45072FB055 /* Pods-CSContacts_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSContacts_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CSContacts_iOSTests/Pods-CSContacts_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DFF03B77A98601D050DB3C /* Pods_CSContacts_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0C68322273154B007A7004 /* CSContacts_iOS.framework in Frameworks */,
+				62FFFF0ECE7A6BA9AA1EB4B4 /* Pods_CSContacts_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65B9A57EE305C9148AADA63 /* Pods_CSContacts_iOS_examples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +131,8 @@
 				0B0C68352273154B007A7004 /* CSContacts_iOSTests */,
 				0B0C6847227315CC007A7004 /* CSContacts_iOS_examples */,
 				0B0C68292273154B007A7004 /* Products */,
+				6AEDB4E81BC78B102F0B6EC7 /* Pods */,
+				848BDDA0C9686437E4DA45A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +187,29 @@
 			path = CSContacts_iOS_examples;
 			sourceTree = "<group>";
 		};
+		6AEDB4E81BC78B102F0B6EC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D22909801960697B9BEBE31 /* Pods-CSContacts_iOS.debug.xcconfig */,
+				109147F557BD989276BB6F56 /* Pods-CSContacts_iOS.release.xcconfig */,
+				DE4F0AC21C580C45072FB055 /* Pods-CSContacts_iOSTests.debug.xcconfig */,
+				A421BD532C929E87B5A9921A /* Pods-CSContacts_iOSTests.release.xcconfig */,
+				5D3C4C6F50AB48840B174C48 /* Pods-CSContacts_iOS_examples.debug.xcconfig */,
+				472861F997B52FEAA597A6A7 /* Pods-CSContacts_iOS_examples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		848BDDA0C9686437E4DA45A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40A0E5CB572F3D845C482EAA /* Pods_CSContacts_iOS.framework */,
+				86BB5143CA24CDAE25C39277 /* Pods_CSContacts_iOSTests.framework */,
+				551F6480A8D58D017635D6FA /* Pods_CSContacts_iOS_examples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -188,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B0C683C2273154B007A7004 /* Build configuration list for PBXNativeTarget "CSContacts_iOS" */;
 			buildPhases = (
+				D14419BE89FF099FC687F29F /* [CP] Check Pods Manifest.lock */,
 				0B0C68232273154B007A7004 /* Headers */,
 				0B0C68242273154B007A7004 /* Sources */,
 				0B0C68252273154B007A7004 /* Frameworks */,
@@ -206,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B0C683F2273154B007A7004 /* Build configuration list for PBXNativeTarget "CSContacts_iOSTests" */;
 			buildPhases = (
+				763CC1997A37A4BDA02D46EB /* [CP] Check Pods Manifest.lock */,
 				0B0C682D2273154B007A7004 /* Sources */,
 				0B0C682E2273154B007A7004 /* Frameworks */,
 				0B0C682F2273154B007A7004 /* Resources */,
@@ -224,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B0C6860227315CE007A7004 /* Build configuration list for PBXNativeTarget "CSContacts_iOS_examples" */;
 			buildPhases = (
+				0C046253AFA69B812AE59B43 /* [CP] Check Pods Manifest.lock */,
 				0B0C6842227315CC007A7004 /* Sources */,
 				0B0C6843227315CC007A7004 /* Frameworks */,
 				0B0C6844227315CC007A7004 /* Resources */,
+				AFC70A5BDBDDE897A06D9CBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +301,7 @@
 					};
 					0B0C6845227315CC007A7004 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -306,6 +351,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C046253AFA69B812AE59B43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSContacts_iOS_examples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		763CC1997A37A4BDA02D46EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSContacts_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC70A5BDBDDE897A06D9CBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSContacts_iOS_examples/Pods-CSContacts_iOS_examples-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxReachability/RxReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSContacts_iOS_examples/Pods-CSContacts_iOS_examples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14419BE89FF099FC687F29F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSContacts_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B0C68242273154B007A7004 /* Sources */ = {
@@ -518,6 +666,7 @@
 		};
 		0B0C683D2273154B007A7004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D22909801960697B9BEBE31 /* Pods-CSContacts_iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -545,6 +694,7 @@
 		};
 		0B0C683E2273154B007A7004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109147F557BD989276BB6F56 /* Pods-CSContacts_iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -571,6 +721,7 @@
 		};
 		0B0C68402273154B007A7004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4F0AC21C580C45072FB055 /* Pods-CSContacts_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,6 +741,7 @@
 		};
 		0B0C68412273154B007A7004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A421BD532C929E87B5A9921A /* Pods-CSContacts_iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -609,10 +761,11 @@
 		};
 		0B0C6861227315CE007A7004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3C4C6F50AB48840B174C48 /* Pods-CSContacts_iOS_examples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XJXX32P7NP;
+				DEVELOPMENT_TEAM = 5EJ8M84LJ9;
 				INFOPLIST_FILE = CSContacts_iOS_examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -627,10 +780,11 @@
 		};
 		0B0C6862227315CE007A7004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472861F997B52FEAA597A6A7 /* Pods-CSContacts_iOS_examples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XJXX32P7NP;
+				DEVELOPMENT_TEAM = 5EJ8M84LJ9;
 				INFOPLIST_FILE = CSContacts_iOS_examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

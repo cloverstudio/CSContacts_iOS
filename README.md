@@ -39,12 +39,13 @@ The contacts list can be obtained by subscribing to phoneContacts property on th
 Example of phoneContacts used as a drive to drive a UITableView:
 ```
 phoneContacts
-.drive(tableView
-.rx
-.items(cellIdentifier: ContactCell.identifier,
-cellType: ContactCell.self)){ (_, contact, cell) in
-cell.setContact(contact)
-}.disposed(by: self.disposeBag)
+    .drive(tableView
+    .rx
+    .items(cellIdentifier: ContactCell.identifier,
+        cellType: ContactCell.self)){ (_, contact, cell) in
+            cell.setContact(contact)
+        }
+    .disposed(by: self.disposeBag)
 ```
 
 ## Instructions for backend support
@@ -61,26 +62,26 @@ The response needs to contain “code” property for success, and “data” ob
 Response example:
 ```
 {
-"code": 1,
-"time": 1557995535252,
-"data": {
-"users": [
-{
-"_id": "5caf3739e9ad4e2e953cb246",
-"name": "John",
-"created": 1554986809516,
-"phoneNumber": "+000989212072",
-"description": ""
-},
-{
-"_id": "5caf3cf1e9ad4e2e953cb262",
-"name": "Bob",
-"created": 1554988273830,
-"phoneNumber": "+000989212074",
-"description": ""
-},
-]
-}
+    "code": 1,
+    "time": 1557995535252,
+    "data": {
+    "users": [
+        {
+            "_id": "5caf3739e9ad4e2e953cb246",
+            "name": "John",
+            "created": 1554986809516,
+            "phoneNumber": "+000989212072",
+            "description": ""
+        },
+        {
+            "_id": "5caf3cf1e9ad4e2e953cb262",
+            "name": "Bob",
+            "created": 1554988273830,
+            "phoneNumber": "+000989212074",
+            "description": ""
+        },
+    ]
+    }
 }
 ```
 

@@ -50,13 +50,39 @@ cell.setContact(contact)
 ## Instructions for backend support
 The api endpoint needs to be configured to accept a POST request containing JSON body of phone numbers separated by comma “,” without white spaces. E.g.:
 ```
-{"phoneNumbers" : "+000989288072,+000989288074”}
+{"phoneNumbers" : "+000989212072,+000989212074”}
 ```
 
 The response needs to contain “code” property for success, and “data” object containing “users” property as an array of users. The user objects need to contain following properties 
 - "_id" as String
 - "name" as String
 - "phoneNumber" as String
+
+Response example:
+```
+{
+"code": 1,
+"time": 1557995535252,
+"data": {
+"users": [
+{
+"_id": "5caf3739e9ad4e2e953cb246",
+"name": "John",
+"created": 1554986809516,
+"phoneNumber": "+000989212072",
+"description": ""
+},
+{
+"_id": "5caf3cf1e9ad4e2e953cb262",
+"name": "Bob",
+"created": 1554988273830,
+"phoneNumber": "+000989212074",
+"description": ""
+},
+]
+}
+}
+```
 
 ## Debug
 Debugging is supported via the property statusUpdate on the CSContactsProvider.

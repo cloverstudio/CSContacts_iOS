@@ -25,11 +25,10 @@ The framework is written in Swift vsersion 4.2 and relies heavily on RxSwift whi
 On app start, in AppDelegate method didFinishLaunchingWithOptions call start on CSContactsProvider class instance passing server endpoint url for contact synchronisation.
 
 ```
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-CSContactsProvider.instance.start(contactSyncUrl: URL(string:  [ENDPOINT URL])!)
-
-return true
+func application(_ application: UIApplication, 
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    CSContactsProvider.instance.start(contactSyncUrl: URL(string:  [ENDPOINT URL])!)
+    return true
 }
 ```
 
@@ -65,22 +64,22 @@ Response example:
     "code": 1,
     "time": 1557995535252,
     "data": {
-    "users": [
-        {
-            "_id": "5caf3739e9ad4e2e953cb246",
-            "name": "John",
-            "created": 1554986809516,
-            "phoneNumber": "+000989212072",
-            "description": ""
-        },
-        {
-            "_id": "5caf3cf1e9ad4e2e953cb262",
-            "name": "Bob",
-            "created": 1554988273830,
-            "phoneNumber": "+000989212074",
-            "description": ""
-        },
-    ]
+        "users": [
+            {
+                "_id": "5caf3739e9ad4e2e953cb246",
+                "name": "John",
+                "created": 1554986809516,
+                "phoneNumber": "+000989212072",
+                "description": ""
+            },
+            {
+                "_id": "5caf3cf1e9ad4e2e953cb262",
+                "name": "Bob",
+                "created": 1554988273830,
+                "phoneNumber": "+000989212074",
+                "description": ""
+            },
+        ]
     }
 }
 ```
